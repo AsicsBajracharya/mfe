@@ -3,6 +3,10 @@ import MarketingApp from './components/MarketingApp'
 export default () =>{
     console.log('test!!!')
     return (
-        <MarketingApp />
+        <>
+            <h1> hi there!</h1>
+            <MarketingApp />
+        </>
+       
     )
 }
